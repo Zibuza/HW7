@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Star from '../public/images/Star.png';
 import ThankYou from '../public/images/Online payment_Two Color(1) 2.png';
-import "./app.css";
+
 
 const App = () => {
   const [selectedRating, setSelectedRating] = useState(null);
